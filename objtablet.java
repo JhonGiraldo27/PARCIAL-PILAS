@@ -4,11 +4,9 @@ public class objtablet {
     private double Precio;
     private String NomUsuario;
     private boolean Disponible;
-    private String tipo;
 
     public objtablet() {
     }
-    
 
     public String getMarca() {
         return Marca;
@@ -48,16 +46,6 @@ public class objtablet {
 
     public void setDisponible(boolean disponible) {
         Disponible = disponible;
-    }
-
-
-    public String getTipo() {
-        return tipo;
-    }
-
-
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
     }
 
 }
